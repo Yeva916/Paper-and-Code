@@ -35,3 +35,9 @@ c_next,h_next = model(a,a,a)
 print({"c_next":c_next.detach(),
        "h_next":h_next.detach()
        })
+
+'''
+output ->
+{'c_next': tensor([-0.4601,  1.1984,  2.5017]), 'h_next': tensor([-0.6833,  0.0275,  0.3205])}
+
+'''
